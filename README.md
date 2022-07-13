@@ -3,7 +3,7 @@
 Linux ricing dotfiles.
 
 
-### Current setup
+### alpha-arch
 
 **Distro**: Arch Linux
 
