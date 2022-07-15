@@ -1,0 +1,35 @@
+! ---------------------------------------
+! -- Color palette configuration
+! ---------------------------------------
+
+gnome.terminal.color0:    terminal_color0
+gnome.terminal.color1:    terminal_color1
+gnome.terminal.color2:    terminal_color2
+gnome.terminal.color3:    terminal_color3
+gnome.terminal.color4:    terminal_color4
+gnome.terminal.color5:    terminal_color5
+gnome.terminal.color6:    terminal_color6
+gnome.terminal.color7:    terminal_color7
+gnome.terminal.color8:    terminal_color8
+gnome.terminal.color9:    terminal_color9
+gnome.terminal.color10:   terminal_color10
+gnome.terminal.color11:   terminal_color11
+gnome.terminal.color12:   terminal_color12
+gnome.terminal.color13:   terminal_color13
+gnome.terminal.color14:   terminal_color14
+gnome.terminal.color15:   terminal_color15
+
+gnome.terminal.foreground-color: terminal_foreground
+gnome.terminal.background-color: terminal_background
+
+gnome.terminal.cursor-foreground-color: terminal_cursor_foreground
+gnome.terminal.cursor-background-color: terminal_cursor_background
+
+
+! -- Additional Configuration
+gnome.terminal.font:          gtk_monospace_font_name
+gnome.terminal.scrollbar:     never
+gnome.terminal.audible-bell:  false
+gnome.terminal.use-transparent-background:  true
+gnome.terminal.background-transparency-percent: 5
+gnome.terminal.cursor-blink-mode: true

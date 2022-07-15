@@ -1,0 +1,140 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --
+! -- This is the root file of Xresource definition for the Regolith 2 default look.
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: custom-dan
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.wallpaper.file:
+regolith.wallpaper.options:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: #323A4C
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file:
+regolith.lockscreen.wallpaper.options:
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary: #323A4C
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Catppuccin-blue
+gtk.icon_theme_name: Adwaita
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name VictorMono Nerd Font 11
+#define gtk_document_font_name VictorMono Nerd Font 11
+#define gtk_monospace_font_name VictorMono Nerd Font 13
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! -- Ayu Mirage colors - https://github.com/ayu-theme/ayu-colors
+
+! -- Darker, dark to light gradients
+#define color_base03   #1F2430
+#define color_base02   #292B30
+#define color_base01   #BFBAB0
+#define color_base00   #CBCCC6
+
+! -- Light gradients
+#define color_base0    #E6E1CF
+#define color_base3    #FFFFFF
+
+! -- Palette 
+#define color_yellow   #FFD580
+#define color_orange   #FFA759
+#define color_red      #FF3333
+#define color_magenta  #D4BFFF
+#define color_violet   #B48EAD
+#define color_blue     #77A8D9
+#define color_cyan     #95E6CB
+#define color_green    #BAE67E
+#define color_brown    #F29E74
+#define color_ltblue   #73D0FF
+#define color_ltgreen  #A6CC70
+#define color_ltyellow #FFE6B3
+#define color_ltcyan   #5CCFE6
+
+! -- Catppuccin color palette obtained from https://github.com/catppuccin/gnome-terminal
+
+#define terminal_color0    #6E6C7C
+#define terminal_color1    #F28FAD
+#define terminal_color2    #ABE9B3
+#define terminal_color3    #FAE3B0
+#define terminal_color4    #96CDFB
+#define terminal_color5    #DDB6F2
+#define terminal_color6    #F5C2E7
+#define terminal_color7    #D9E0EE
+#define terminal_color8    #988BA2
+#define terminal_color9    #F28FAD
+#define terminal_color10   #ABE9B3
+#define terminal_color11   #FAE3B0
+#define terminal_color12   #96CDFB
+#define terminal_color13   #DDB6F2
+#define terminal_color14   #F5C2E7
+#define terminal_color15   #D9E0EE
+#define terminal_foreground #D7DAE0
+#define terminal_background #1E1E2E
+#define terminal_cursor_foreground  #1E1E2E
+#define terminal_cursor_background  #F5E0DC
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/custom-dan/i3xrocks"
+#include "/usr/share/regolith-look/custom-dan/i3-wm"
+#include "/usr/share/regolith-look/custom-dan/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! -- NOTE: A custom loader is being used to call to a different regolith-init-term-profile script for the temrinal configuration
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/custom_loader.sh

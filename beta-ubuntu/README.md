@@ -21,3 +21,4 @@
 For the custom Regolith Look several custom scripts and configuration files have been created:
 - `/usr/share/regolith-ftue/custom-regolith-init-term-profile`: Custom script for the loading of the gnome-terminal configuration defined in the Look.
 - `/usr/share/regolith-look/custom_loader.sh`: Custom loader that calls the custom term profile init program.
+

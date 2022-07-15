@@ -1,0 +1,15 @@
+!regolith.look.path: /usr/share/regolith-look/nord
+!regolith.look.path: /usr/share/regolith-look/nord
+!regolith.look.path: /usr/share/regolith-look/solarized-dark
+!regolith.look.path: /usr/share/regolith-look/nevil
+!regolith.look.path: /usr/share/regolith-look/blackhole
+!regolith.look.path: /usr/share/regolith-look/gruvbox
+!regolith.look.path: /usr/share/regolith-look/default
+!regolith.look.path: /usr/share/regolith-look/custom-dan
+
+regolith.wallpaper.file: ~/Pictures/alena-aenami-mountains1k.jpg
+regolith.lockscreen.wallpaper.file: ~/Pictures/alena-aenami-something.jpg
+regolith.look.path: /usr/share/regolith-look/custom-dan
+
+! -- Disable i3 bar to use Polybar
+i3-wm.bar.mode: hide
